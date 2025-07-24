@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>سلايدر ببطاقة تفاصيل</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="content">
+  <h2>4 Bages Collection</h2>
+<div class="colors">
+  <span class="color-circle" style="background-color: #8B0000;" data-title="Product 1" data-desc="Details of the first product" data-price="250 EGP" data-img="images/photo_5769272837226482529_x.jpg"></span>
+  <span class="color-circle" style="background-color: #001f3f;" data-title="Product 2" data-desc="Details of the second product" data-price="200  EGP "data-img="images/photo_5769272837226482526_x.jpg"></span>
+  <span class="color-circle" style="background-color: #C1A185;" data-title="Product 3" data-desc="Details of the third product" data-price="180 EGP " data-img="images/photo_5769272837226482527_y.jpg"></span>
+  <span class="color-circle" style="background-color: #3498db;" data-title="Product 4" data-desc="Details of the fourth product" data-price="250  EGP "data-img="images/photo_5769272837226482526_x.jpg"></span>
+</div>
+  <button class="first-btn">buy now</button>
+</div>
+
+  <div class="slider-wrapper">
+    <button id="prev" class="nav-btn">⟨</button>
+
+<div id="slider" class="slider-container">
+  <img src="images/photo_5769272837226482528_x.jpg" alt="Product 1" data-title="Product 1" data-desc="Details of the first product" data-price="150 جنيه">
+  <img src="images/photo_5769272837226482526_x.jpg" alt="Product 2" data-title="Product 2" data-desc="Details of the second product" data-price="200 جنيه">
+  <img src="images/photo_5769272837226482527_y.jpg" alt="Product 3" data-title="Product 3" data-desc="Details of the third product" data-price="180 جنيه">
+  <img src="images/photo_5769272837226482524_y.jpg" alt="Product 4" data-title="Product 4" data-desc="Details of the fourth product" data-price="250 جنيه">
+  <img src="images/photo_5769272837226482529_x.jpg" alt="Product 5" data-title="Product 5" data-desc="Details of the fifth product" data-price="250 جنيه">
+</div>
+
+    <button id="next" class="nav-btn">⟩</button>
+  </div>
+
+  <div class="product-card" id="productCard" >
+    <div class="product-img">
+    <img id="cardImage" src="" alt="Product Image" style="max-width: 100%; height: auto;">
+    </div>
+    <h2 id="cardTitle"></h2>
+    <p id="cardDesc"></p>
+    <p class="price" id="cardPrice"></p>
+    <button class="first-btn" id="buy-now-btn">Buy Now</button>
+  </div>
+
+
+<div id="form-container" style="display: none;">
+  <form action="https://formsubmit.co/mariamabdelhaq883@gmail.com" method="POST">
+ <input type="text" name="name" placeholder="Full Name" required>
+  
+  <input type="email" name="email" placeholder="Email Address" required>
+  
+  <input type="tel" name="phone" placeholder="Phone Number" pattern="[0-9]{10,15}" required>
+  
+  <input type="text" name="color" placeholder="Selected Color" id="colorInput" readonly>
+
+
+    <label> choose color:</label>
+    <label>
+      <input type="radio" name="color" value="أحمر" required>
+      <span class="color-circle" style="background-color:red;"></span>
+    </label>
+    <label>
+      <input type="radio" name="color" value="أزرق">
+      <span class="color-circle" style="background-color:blue;"></span>
+    </label>
+
+    <button type="submit">submit</button>
+  </form>
+</div>
+</div>
+  <script src="script.js"></script>
+</body>
+</html>
