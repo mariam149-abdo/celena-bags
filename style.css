@@ -113,6 +113,7 @@ nav h1{
 }
 .details p{
   font-weight:400;
+  margin:15px;
 }
 .details span{
   color:#674d87;
@@ -161,6 +162,10 @@ nav h1{
   background: #fff;
   border:2px solid #745d93;
   color:#000;
+}
+#form-container{
+  max-width:100%;
+  flex-wrap:wrap;
 }
 form {
   max-width:500px;
