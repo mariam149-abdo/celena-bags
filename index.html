@@ -3,72 +3,146 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>سلايدر ببطاقة تفاصيل</title>
+  <title>celena bags</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="images/CELENA.png" type="image/png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
+  <nav>
+    <img src="images/celena.jpg" alt="celena logo">
+    <h1>celena bags</h1>
+  </nav>
 <div class="container">
-    <div class="content">
-  <h2>4 Bages Collection</h2>
-<div class="colors">
-  <span class="color-circle" style="background-color: #8B0000;" data-title="Product 1" data-desc="Details of the first product" data-price="250 EGP" data-img="images/photo_5769272837226482529_x.jpg"></span>
-  <span class="color-circle" style="background-color: #001f3f;" data-title="Product 2" data-desc="Details of the second product" data-price="200  EGP "data-img="images/photo_5769272837226482526_x.jpg"></span>
-  <span class="color-circle" style="background-color: #C1A185;" data-title="Product 3" data-desc="Details of the third product" data-price="180 EGP " data-img="images/photo_5769272837226482527_y.jpg"></span>
-  <span class="color-circle" style="background-color: #3498db;" data-title="Product 4" data-desc="Details of the fourth product" data-price="250  EGP "data-img="images/photo_5769272837226482526_x.jpg"></span>
-</div>
-  <button class="first-btn">buy now</button>
-</div>
-
   <div class="slider-wrapper">
-    <button id="prev" class="nav-btn">⟨</button>
-
+    <button id="next" class="nav-btn"><i class="fa-solid fa-arrow-right"></i></button>
 <div id="slider" class="slider-container">
-  <img src="images/photo_5769272837226482528_x.jpg" alt="Product 1" data-title="Product 1" data-desc="Details of the first product" data-price="150 جنيه">
-  <img src="images/photo_5769272837226482526_x.jpg" alt="Product 2" data-title="Product 2" data-desc="Details of the second product" data-price="200 جنيه">
-  <img src="images/photo_5769272837226482527_y.jpg" alt="Product 3" data-title="Product 3" data-desc="Details of the third product" data-price="180 جنيه">
-  <img src="images/photo_5769272837226482524_y.jpg" alt="Product 4" data-title="Product 4" data-desc="Details of the fourth product" data-price="250 جنيه">
-  <img src="images/photo_5769272837226482529_x.jpg" alt="Product 5" data-title="Product 5" data-desc="Details of the fifth product" data-price="250 جنيه">
+<img src="images/photo_5769272837226482528_x.jpg" class="first-img">
+
+<img src="images/photo_5769272837226482526_x.jpg" alt="Product 2" 
+     data-title="شنطة كروس كحلي من Coach" 
+     data-desc="شنطة أنيقة بلون كحلي داكن مع سلسلة ذهبية وتفاصيل كرز مميزة. التصميم بسيط وفخم، مناسب للخروجات والرسمية." 
+     data-price="5000 جنيه">
+
+<img src="images/photo_5769272837226482527_y.jpg" alt="Product 3" 
+     data-title="شنطة بيج × كرز × نبيتي" 
+     data-desc="مزيج رائع من اللون البيج بنقشة شعار Coach مع تفاصيل كرز وردية، وإطار نبيتي أنيق. خامة جلدية بتصميم عصري يناسب الإطلالات اليومية." 
+     data-price="5000 جنيه">
+
+<img src="images/photo_5769272837226482524_y.jpg" alt="Product 4" 
+     data-title="شنطة كروس زرقاء منقوشة" 
+     data-desc="تصميم جذاب باللون الأزرق الداكن بنقشة شعار Coach، مزينة بكرز لامع على السلسلة الذهبية. مثالية للأناقة اليومية." 
+     data-price="5000 جنيه">
+
+<img src="images/photo_5769272837226482529_x.jpg" alt="Product 5" 
+     data-title="شنطة حمراء جلدية من Coach" 
+     data-desc="شنطة جلدية ناعمة باللون الأحمر العنابي، بتفاصيل كرز بارزة وسلسلة ذهبية. مزيج فاخر بين الجرأة والأنوثة." 
+     data-price="5000 جنيه">
+
 </div>
+    <button id="prev" class="nav-btn"><i class="fa-solid fa-arrow-left"></i></button>
 
-    <button id="next" class="nav-btn">⟩</button>
   </div>
+  
+ <div class="content">
+<div class="details">
+    <h2>تشكيلة 4 شنط</h2>
+  <p>السعر قبل الخصم <del>8000</del> جنية<br>السعر بعد الخصم <span> 5000 جنية</span></p>
+  <a href="#form-container" class="first-btn" id="buy-now-btn" style="text-decoration: none;">اشترِ الآن</a>
+</div>
+<div class="info">
+<p>
+اكتشفي أناقتك اليومية مع مجموعة شنط الكروس المكونة من أربع قطع متنوعة التصميم. تتميز هذه المجموعة بتفاصيل أنثوية ناعمة وخامات عالية الجودة، منها الشنطة البيج المزيّنة بنقشة الكرز المبهجة ولمسات الجلد التان الأنيقة، والشنط الجلدية الكلاسيكية بلون التان الدافئ، بالإضافة لتصميمات تجمع بين الألوان الهادئة والعملية. كل شنطة مصممة لتكون رفيقتك في الخروجات، العمل، أو حتى الرحلات القصيرة، بتوازن مثالي بين الأناقة والراحة.
+</p>
+</div> 
 
-  <div class="product-card" id="productCard" >
+<div class="counter">
+  <h3>ينتهى العرض خلال</h3>
+  <div class="timer">
+  <p>أيام<br><span id="days">0</span> </p>
+  <p> ساعات<br><span id="hours">0</span></p>
+  <p>دقائق<br><span id="minutes">1</span></p>
+  <p>ثواني<br><span id="seconds">5</span> </p>
+  </div>
+</div>
+  <h2>متبقي 20 قطعه فقط !</h2>
+</div>
+<div id="form-container" style="display:none;">
+  <form id="orderForm" action="https://formsubmit.co/mariamabdelhaq883@gmail.com" method="POST">
+  <label>عدد القطع:</label><br>
+  <input type="number" name="quantity" min="1" required><br>
+
+  <label>الاسم:</label><br>
+  <input type="text" name="name" required><br>
+
+  <label>رقم الهاتف:</label><br>
+  <input type="tel" name="phone" required><br>
+
+<label for="city">المحافظة</label><br>
+<select name="city" class="select" id="city" required>
+  <option value="" disabled selected>اختر الماحفظه</option>
+  <option value="cairo">القاهرة</option>
+  <option value="giza">الجيزة</option>
+  <option value="alexandria">الإسكندرية</option>
+  <option value="dakahlia">الدقهلية</option>
+  <option value="sharqia">الشرقية</option>
+  <option value="gharbia">الغربية</option>
+  <option value="beheira">البحيرة</option>
+  <option value="kafr_elsheikh">كفر الشيخ</option>
+  <option value="monufia">المنوفية</option>
+  <option value="qalyubia">القليوبية</option>
+  <option value="ismailia">الإسماعيلية</option>
+  <option value="suez">السويس</option>
+  <option value="port_said">بورسعيد</option>
+  <option value="damietta">دمياط</option>
+  <option value="fayoum">الفيوم</option>
+  <option value="beni_suef">بني سويف</option>
+  <option value="minya">المنيا</option>
+  <option value="assuit">أسيوط</option>
+  <option value="sohag">سوهاج</option>
+  <option value="qena">قنا</option>
+  <option value="luxor">الأقصر</option>
+  <option value="aswan">أسوان</option>
+  <option value="red_sea">البحر الأحمر</option>
+  <option value="new_valley">الوادي الجديد</option>
+  <option value="matrouh">مطروح</option>
+  <option value="north_sinai">شمال سيناء</option>
+  <option value="south_sinai">جنوب سيناء</option>
+</select>
+<br>
+
+<label for="name">اختر الشنطة</label><br>
+<select name="bag" class='select' id="bag" required>
+  <option value="" disabled selected>اختر اللون:</option>
+  <option value="شنطة كروس كحلي من Coach">شنطة كروس كحلي</option>
+  <option value="شنطة بيج × كرز × نبيتي">شنطة بيج × كرز × نبيتي</option>
+  <option value="شنطة كروس زرقاء منقوشة">شنطة زرقاء منقوشة</option>
+  <option value="شنطة حمراء جلدية من Coach">شنطة حمراء جلدية</option>
+</select><br>
+
+  <label>العنوان:</label><br>
+  <input type="text" name="address" required><br>
+
+  <label>ملاحظات:</label><br>
+  <textarea name="notes" rows="4"></textarea><br>
+
+  <button type="submit">إرسال</button>
+</form>
+
+</div>
+<div id="product-container" style="display:none;">
+  <div class="product-card" id="productCard">
     <div class="product-img">
-    <img id="cardImage" src="" alt="Product Image" style="max-width: 100%; height: auto;">
+      <img id="cardImage" src="" alt="Product Image">
     </div>
     <h2 id="cardTitle"></h2>
     <p id="cardDesc"></p>
     <p class="price" id="cardPrice"></p>
-    <button class="first-btn" id="buy-now-btn">Buy Now</button>
+    <button class="first-btn" id="buy-now">اشتر الان</button>
   </div>
-
-
-<div id="form-container" style="display: none;">
-  <form action="https://formsubmit.co/mariamabdelhaq883@gmail.com" method="POST">
- <input type="text" name="name" placeholder="Full Name" required>
-  
-  <input type="email" name="email" placeholder="Email Address" required>
-  
-  <input type="tel" name="phone" placeholder="Phone Number" pattern="[0-9]{10,15}" required>
-  
-  <input type="text" name="color" placeholder="Selected Color" id="colorInput" readonly>
-
-
-    <label> choose color:</label>
-    <label>
-      <input type="radio" name="color" value="أحمر" required>
-      <span class="color-circle" style="background-color:red;"></span>
-    </label>
-    <label>
-      <input type="radio" name="color" value="أزرق">
-      <span class="color-circle" style="background-color:blue;"></span>
-    </label>
-
-    <button type="submit">submit</button>
-  </form>
 </div>
 </div>
   <script src="script.js"></script>
+
 </body>
 </html>
