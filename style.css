@@ -146,8 +146,7 @@ nav h1{
   font-size:30px;
   font-weight:600;
 }
-.first-btn,
-.back {
+.first-btn{
   padding: 10px 20px;
   background: #745d93;
   color: white;

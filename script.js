@@ -44,14 +44,6 @@ buyButtons.forEach(btn => {
   });
 });
 
-const backBtn = document.getElementById('backBtn');
-
-backBtn.addEventListener('click', () => {
-  formContainer.style.display = 'none';
-  sliderWrapper.style.display = 'block';
-  content.style.display = 'flex';
-});
-
 let days = 0;
 let hours = 2;
 let minutes = 60;
