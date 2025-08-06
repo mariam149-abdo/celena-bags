@@ -39,8 +39,8 @@ const formContainer = document.getElementById("form-container");
 buyButtons.forEach(btn => {
   btn.addEventListener("click", () => {
     formContainer.style.display = "block";
-    sliderWrapper.classList.add('hide-on-form');
-    content.classList.add('hide-on-form');
+    sliderWrapper.style.display="none";
+    content.style.display= "none";
   });
 });
 
@@ -48,8 +48,8 @@ const backBtn = document.getElementById('backBtn');
 
 backBtn.addEventListener('click', () => {
   formContainer.style.display = 'none';
-  sliderWrapper.classList.remove('hide-on-form');
-  content.classList.remove('hide-on-form');
+  sliderWrapper.style.display = 'block';
+  content.style.display = 'flex';
 });
 
 let days = 0;

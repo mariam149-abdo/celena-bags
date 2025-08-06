@@ -38,9 +38,6 @@ nav h1{
   padding-top:50px;
   gap:70px;
 }
-.hide-on-form {
-  display: none !important;
-}
 .slider-wrapper {
   position: relative;
   display: flex;
