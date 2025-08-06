@@ -38,6 +38,9 @@ nav h1{
   padding-top:50px;
   gap:70px;
 }
+.hide-on-form {
+  display: none !important;
+}
 .slider-wrapper {
   position: relative;
   display: flex;
@@ -146,7 +149,8 @@ nav h1{
   font-size:30px;
   font-weight:600;
 }
-.first-btn {
+.first-btn,
+.back {
   padding: 10px 20px;
   background: #745d93;
   color: white;

@@ -39,7 +39,17 @@ const formContainer = document.getElementById("form-container");
 buyButtons.forEach(btn => {
   btn.addEventListener("click", () => {
     formContainer.style.display = "block";
+    sliderWrapper.classList.add('hide-on-form');
+    content.classList.add('hide-on-form');
   });
+});
+
+const backBtn = document.getElementById('backBtn');
+
+backBtn.addEventListener('click', () => {
+  formContainer.style.display = 'none';
+  sliderWrapper.classList.remove('hide-on-form');
+  content.classList.remove('hide-on-form');
 });
 
 let days = 0;
